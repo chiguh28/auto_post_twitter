@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tweepy = "*"
+selenium = "*"
+oauth2 = "*"
+webdriver-manager = "*"
+sqlalchemy = "*"
+pyside6 = "*"
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+
+[requires]
+python_version = "3.7"
